@@ -19,5 +19,5 @@ It stores the data what output file will look like
 # Time complexity
 
 1. I save all the data in actual.txt into dict(), and combine time and stockID as key. 
-2. Through the time and stockID key, find the matched stockID in predicted.txt and save the matched data into the form of pre_process_data, so it is O(n)
-
+2. Through the time-stockID key, find the matched data in predicted.txt and save these data into the form of pre_process_data, so the look up function is O(n)
+3. The comparison_sliding_window is the function to transform pre_process_data to comparison, time complexity is O(n) which n = number of lines in output_file = end_time - start_time - window_side + 1
