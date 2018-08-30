@@ -1,6 +1,9 @@
 @author Yifu Zhou
+
 @Aug 29
+
 ./run.sh
+
 Make sure you put the input files to the input folder
 
 ## Space complexity
